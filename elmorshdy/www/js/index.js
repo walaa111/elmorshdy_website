@@ -62,7 +62,9 @@ var app = {
 
         this.receivedEvent('deviceready');
 
- var inAppBrowserbRef = cordova.InAppBrowser.open('https://matthew.realdeal.com.eg/almorshedymall/', '_self', 'location=no,toolbar=no,zoom=no,clearcache=yes,hidespinner=no,beforeload=yes');
+ var inAppBrowserbRef = cordova.InAppBrowser.open('https://electrostar.ovplatform.tk', '_self', 'location=no,toolbar=no');
+
+ inAppBrowserbRef = cordova.InAppBrowser.open('https://matthew.realdeal.com.eg/almorshedymall/', '_self', 'location=no,toolbar=no,zoom=no');
 
 /*
 inAppBrowserbRef.addEventListener('loadstart', function() {
