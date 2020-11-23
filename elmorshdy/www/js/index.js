@@ -75,8 +75,8 @@ inAppBrowserbRef.addEventListener('loadstart', function() {
         //admob
      // Set AdMobAds options:
       admob.setOptions({
-        publisherId:           "ca-app-pub-7251676025279948/2060152597",  // Required
-        interstitialAdId:      "ca-app-pub-7251676025279948/9747070921",  // Optional
+        publisherId:           "",  // Required
+        interstitialAdId:      "",  // Optional
         autoShowBanner:        true,                                      // Optional
         autoShowRInterstitial: false,                                     // Optional
         autoShowRewarded:      false,                                     // Optional
